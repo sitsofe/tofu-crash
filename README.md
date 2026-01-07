@@ -7,6 +7,9 @@ sporadic crash that looks something like:
 3.694 runtime: marked free object in span 0x4000474d9400, elemsize=96 freeindex=1 (bad use of unsafe.Pointer or having race conditions? try -d=checkptr or -race)
 ```
 
+An issue has been filed against buildkit over on
+https://github.com/moby/buildkit/issues/6445 .
+
 OpenTofu crash reproduction steps
 =================================
 
